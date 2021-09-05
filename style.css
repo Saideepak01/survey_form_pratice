@@ -1,0 +1,52 @@
+body{
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+sup{
+  color: red;
+}
+.topalign{
+  position: relative;
+  top: -3.9rem;
+  left: 15rem;
+}
+.name{
+  height: 6rem;
+}
+td{
+  text-align: center;
+  padding-right: 2rem;
+}
+.normal{
+  text-align: left;
+}
+th{
+  padding-right: 2rem;
+}
+table{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+table tr:nth-of-type(even){
+  background-color: #F1F1F1;
+}
+#class{
+  width: 26.7rem;
+  margin-bottom: 1rem;
+}
+.star-wrapper i{
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.comments textarea{
+  resize: both;
+}
+.comments p{
+  font-weight: bold;
+}
+button{
+  border: 1px solid black;
+  padding: 0.5rem;
+  width: 5rem;
+}
